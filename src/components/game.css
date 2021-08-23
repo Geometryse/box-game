@@ -1,0 +1,26 @@
+.game-container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cell {
+  width: 180px;
+  height: 180px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.false {
+  background-color: #283593;
+}
+.false:hover {
+  background-color: #303f9f;
+}
+.true {
+  background-color: #42a5f5;
+}
+.true:hover {
+  background-color: #64b5f6;
+}
